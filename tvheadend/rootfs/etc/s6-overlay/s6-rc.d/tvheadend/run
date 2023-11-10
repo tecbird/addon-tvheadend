@@ -7,4 +7,4 @@
 
 bashio::log.info "Starting TVHeadend..."
 
-exec /usr/bin/tvheadend -u root -g root -c /config/tvheadend
+exec /usr/bin/tvheadend -u root -g root -c /config/tvheadend --satip_xml http://192.168.178.140:38400/description.xml
